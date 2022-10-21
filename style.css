@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root { /*adc minhas opções nas confg*/
+    --cor0:#FAEF75;
+    --cor1:#F9ED62;
+    --cor2:#F9EB4D;
+    --cor3:#F9E939;
+    --cor4:#F8E725;
+    --cor5:#F8E515;
+    --cor6:#EDDA07;
+}
+
+body{
+    background-color: var(--cor6);
+}
+
+main {
+    background-color:var(--cor0);
+    min-width: 300px;
+    max-width: 800px;/*800px*/
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius:10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    text-align: center;
+}
+
+main > h1{
+    margin: auto;
+}
+
+main > h2{
+
+}
+
+main > p{
+
+}
+
+footer {
+    font-size: 0.7em;
+    color: var(black);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main > ul {
+    list-style-type: '\2714\00a0';
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify;
+}
