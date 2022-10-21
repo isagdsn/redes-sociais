@@ -8,14 +8,15 @@
     --cor4:#F8E725;
     --cor5:#F8E515;
     --cor6:#EDDA07;
+    --cor7:#ffd000;
 }
 
 body{
-    background-color: var(--cor6);
+    background-color:var(--cor0);
 }
 
 main {
-    background-color:var(--cor0);
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor2));
     min-width: 300px;
     max-width: 800px;/*800px*/
     margin: auto;
@@ -38,17 +39,24 @@ main > p{
 
 }
 
+main > ul {
+    list-style-type: '\2714\00a0';
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify;
+}
+
+main > aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+}
+
 footer {
     font-size: 0.7em;
     color: var(black);
     padding: 5px;
     text-align: center;
     text-decoration: none;
-}
-
-main > ul {
-    list-style-type: '\2714\00a0';
-    list-style-position: inside;
-    columns: 2;
-    text-align: justify;
 }
