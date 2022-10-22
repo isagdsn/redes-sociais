@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root { /*adc minhas opções nas confg*/
+    --cor00:#ffea0052;
     --cor0:#FAEF75;
     --cor1:#F9ED62;
     --cor2:#F9EB4D;
@@ -8,15 +9,15 @@
     --cor4:#F8E725;
     --cor5:#F8E515;
     --cor6:#EDDA07;
-    --cor7:#ffd000;
+    --cor7:#b89601;
 }
 
 body{
-    background-color:var(--cor0);
+    background-color:var(--cor00);
 }
 
 main {
-    background-image: linear-gradient(to bottom, var(--cor6), var(--cor2));
+    background-image: linear-gradient(to left, var(--cor6), var(--cor3) );
     min-width: 300px;
     max-width: 800px;/*800px*/
     margin: auto;
@@ -29,34 +30,47 @@ main {
 
 main > h1{
     margin: auto;
-}
-
-main > h2{
 
 }
 
-main > p{
+
+main strong{
+    font-weight: bolder;
+    font-size:20px;
 
 }
 
-main > ul {
-    list-style-type: '\2714\00a0';
+aside > ul {
     list-style-position: inside;
-    columns: 2;
-    text-align: justify;
+    text-align: left;
 }
 
 main > aside{
-    background-color: var(--cor2);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+    background-color: var(--cor1);
+    padding: 23px;
+    border-radius: 33px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
+}
+
+aside > h2{
+    text-align: left;
+    padding-inline-start: 40px;
+}
+
+aside a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor7);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+    transition-duration: .5s;
+}
+
+aside a:hover{
+    background-color: var(--cor7);
+    color: var(--cor1);
 }
 
 footer {
-    font-size: 0.7em;
-    color: var(black);
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
+   text-align: center;
 }
