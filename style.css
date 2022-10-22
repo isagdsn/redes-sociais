@@ -3,21 +3,33 @@
 :root { 
     --cor00:#ffea0052;
     --cor0:#FAEF75;
-    --cor1:#F9ED62;
+    --cor1:#f3dc77;
     --cor2:#F9EB4D;
-    --cor3:#F9E939;
+    --cor3:#f3df6b;
     --cor4:#F8E725;
     --cor5:#F8E515;
-    --cor6:#EDDA07;
-    --cor7:#b89601;
+    --cor6:#d4b115;
+    --cor7:#0267c1;
+    --cor8:#ffb5c2;
+    --cor9:#D88C9A;
+    --1:#7038B4;
+    --2:#9B26AB;
+    --3:#D02375;
+    --4:#F44832;
+    --5:#FE9404 ;
+    --6:#FCBA04 ;
+    --7:#FBE436;
+    --8:#7CB74D ;
+    --9:#0CA7DF;
+    --10:#424FB5;
 }
 
 body{
-    background-color:var(--cor00);
+    background-image:linear-gradient(var(--1),var(--2),var(--3),var(--4),var(--5),var(--6),var(--7),var(--8),var(--9),var(--10));
 }
 
 main {
-    background-image: linear-gradient(to left, var(--cor6), var(--cor3) );
+    background-color:var(--cor0);
     min-width: 300px;
     max-width: 800px;
     margin: auto;
@@ -46,7 +58,7 @@ aside > ul {
 }
 
 main > aside{
-    background-color: var(--cor1);
+    background-color:white;
     padding: 23px;
     border-radius: 33px;
     box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
@@ -58,16 +70,15 @@ aside > h2{
 }
 
 aside a{
+    
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor7);
-    background-color: var(--cor1);
+    color: rgb(99, 69, 69);
     padding: 2px 6px;
     transition-duration: .5s;
 }
 
 aside a:hover{
-    background-color: var(--cor7);
     color: var(--cor1);
 }
 
