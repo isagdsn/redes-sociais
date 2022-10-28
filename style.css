@@ -25,17 +25,27 @@
 }
 
 body{
-    background-image:linear-gradient(var(--1),var(--2),var(--3),var(--4),var(--5),var(--6),var(--7),var(--8),var(--9),var(--10));
+   /* background-image:linear-gradient(var(--1),var(--2),var(--3),var(--4),var(--5),var(--6),var(--7),var(--8),var(--9),var(--10));*/
+   height: 100vh;
+   background-image: url(imagem/Capa-fundo-youtube.png);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
 }
 
 main {
-    background-color:var(--cor0);
+    /*background-color:var(--cor0);*/
+    background-image: url(imagem/pexels-artem-podrez-7232493.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 35px;
     border-radius:10px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     text-align: center;
 }
@@ -84,4 +94,5 @@ aside a:hover{
 
 footer {
    text-align: center;
+   padding-bottom: 15px;
 }
