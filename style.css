@@ -27,15 +27,14 @@
 body{
    /* background-image:linear-gradient(var(--1),var(--2),var(--3),var(--4),var(--5),var(--6),var(--7),var(--8),var(--9),var(--10));*/
    height: 100vh;
-   background-image: url(imagem/Capa-fundo-youtube.png);
+   background-image: url(imagem/5.png);
    background-attachment: fixed;
    background-size: cover;
    background-position: center center;
 }
 
 main {
-    /*background-color:var(--cor0);*/
-    background-image: url(imagem/pexels-artem-podrez-7232493.jpg);
+    background-color: #c9917fd8;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -68,7 +67,9 @@ aside > ul {
 }
 
 main > aside{
-    background-color:white;
+   /* background-color:#c9917f9f;*/
+   background-color: transparent;
+   background-size: contain;
     padding: 23px;
     border-radius: 33px;
     box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
