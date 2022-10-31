@@ -27,14 +27,14 @@
 body{
    /* background-image:linear-gradient(var(--1),var(--2),var(--3),var(--4),var(--5),var(--6),var(--7),var(--8),var(--9),var(--10));*/
    height: 100vh;
-   background-image: url(imagem/5.png);
+   background-image: url(imagem/Design\ sem\ nome.png);
    background-attachment: fixed;
    background-size: cover;
    background-position: center center;
 }
 
 main {
-    background-color: #c9917fd8;
+    background-color: #995358ce;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -68,11 +68,15 @@ aside > ul {
 
 main > aside{
    /* background-color:#c9917f9f;*/
-   background-color: transparent;
+   background-color:#dfa8ac86 ;
    background-size: contain;
     padding: 23px;
-    border-radius: 33px;
+    border-radius: 35px;
     box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
+}
+
+main > p.img{
+   
 }
 
 aside > h2{
@@ -84,13 +88,14 @@ aside a{
     
     text-decoration: none;
     font-weight: bold;
-    color: rgb(99, 69, 69);
+    color:#6f292e;
     padding: 2px 6px;
     transition-duration: .5s;
 }
 
 aside a:hover{
-    color: var(--cor1);
+    color:#dfa8ac ;
+    background-color: #995358;
 }
 
 footer {
